@@ -1,0 +1,106 @@
+body {
+  box-sizing: border-box;
+  height: 100vh;
+  font-size: 16px;
+  background-color: hsl(30, 54%, 90%);
+  font-family: 'Outfit', sans-serif;
+  color: hsl(24, 5%, 18%);
+
+}
+
+article {
+  margin: 5em auto 5em;      
+  width: 60%;
+  background-color: hsl(0, 0%, 100%);
+  padding: 40px;
+  border-radius: 20px;
+}
+
+article img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+article p {
+  margin-top: 0;
+}
+
+div {
+  background-color: hsl(330, 100%, 98%);
+  padding: 20px;
+
+}
+
+div h2 {
+  color: hsl(332, 51%, 32%);
+}
+
+section:first-of-type, section:last-of-type {
+  border-bottom: none;
+}
+
+section {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding: 15px;
+  margin: 0, auto;
+}
+
+article:last-child() {
+  border-bottom: none;
+}
+
+section h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+
+li {
+  margin-top: 1em;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.color {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+}
+
+tr, td {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding: 10px;
+  
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+@media screen and (max-width: 375px){
+  body {
+    overflow-x: hidden;
+  }
+
+
+  article {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    margin: -10px;
+    border-radius: 0;
+
+  }
+}
